@@ -1,4 +1,4 @@
-# SendToGoldbot Plugin for VS
+# SendToGodbolt Plugin for VS
 
 ## Abstract
 
