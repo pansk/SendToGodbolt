@@ -107,7 +107,7 @@ namespace SendToGodBolt
 
             var extension = Path.GetExtension(doc.FullName);
 
-            string[] validExtensions = { ".cc", ".cpp", ".cxx", ".c" };
+            string[] validExtensions = { ".cc", ".cpp", ".cxx", ".c", ".hh", ".hpp", ".hxx", ".h", ".inl" };
 
             if (!validExtensions.Any(x => x.Equals(extension, StringComparison.InvariantCultureIgnoreCase))) return;
 
